@@ -1,1 +1,106 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+h3 {
+  text-align: center;
+  background-color: #e9e9e9;
+  padding: 15px;
+  font-weight: normal;
+  margin-top: -20px;
+  -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+          box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
+.material-icons {
+  margin-right: 20px;
+}
+
+#book {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+#book .heading {
+  font-size: 30px;
+}
+
+.bottom-heading {
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+#book button {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#da6dcb), to(#6300b4));
+  background-image: linear-gradient(#da6dcb, #6300b4);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.menu button {
+  margin: 10px;
+  border-radius: 20px;
+  width: 100%;
+  height: 70px;
+}
+
+.restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+}
+
+.restaurant img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.restaurant figure {
+  height: 350px;
+  text-align: left;
+  font-size: 20px;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.restaurant figcaption {
+  margin: 10px;
+}
+
+figure .material-icons {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
