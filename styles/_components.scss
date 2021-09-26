@@ -1,6 +1,5 @@
 .menu {
-    display: flex;
-    flex-direction: column;
+    @include column;
     padding: 20px;
   
 }
@@ -13,10 +12,10 @@
 }
 
 .restaurant {
-    display: flex;
-    flex-direction: column;
+    @include column;
     justify-content: center;
     border-radius: 15px;
+    margin-bottom: 500%;
 }
 
 .restaurant img {
