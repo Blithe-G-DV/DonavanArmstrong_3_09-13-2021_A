@@ -1,10 +1,10 @@
 h1 {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 50px;
 }
 
-h3 {
+.location {
   text-align: center;
   background-color: #e9e9e9;
   padding: 15px;
@@ -47,36 +47,11 @@ h3 {
   margin-top: 20px;
 }
 
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 20px;
-}
-
 .menu button {
   margin: 10px;
   border-radius: 20px;
   width: 100%;
   height: 70px;
-}
-
-.restaurant {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 15px;
 }
 
 .restaurant img {
@@ -102,5 +77,73 @@ h3 {
 
 figure .material-icons {
   float: right;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.paletteMenu {
+  background-color: #e9e9e9;
+  border-radius: 50px;
+  width: 100%;
+  margin-top: -15%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.paletteMenu h2 {
+  margin-left: 10%;
+  font-size: 40px;
+}
+
+.material-icons {
+  margin-left: 25%;
+  font-size: 50%;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 10%;
+}
+
+footer {
+  background-color: #303030;
+  padding: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer li:first-child {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */

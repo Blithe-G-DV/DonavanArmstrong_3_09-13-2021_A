@@ -1,9 +1,4 @@
-.menu {
-    @include column;
-    padding: 20px;
-  
-}
-
+// home page
 .menu button {
     margin: 10px;
     border-radius: 20px;
@@ -11,12 +6,7 @@
     height: 70px;
 }
 
-.restaurant {
-    @include column;
-    justify-content: center;
-    border-radius: 15px;
-    margin-bottom: 500%;
-}
+
 
 .restaurant img {
     border-radius: 15px;
@@ -41,6 +31,30 @@
 
 figure .material-icons {
     float: right;
+}
+// the full palette
+img {
+    width: 100%;
+    display:block;
+}
+
+.paletteMenu {
+    background-color: $background-grey;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: -15%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.paletteMenu h2 {
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+.material-icons {
+    margin-left: 25%;
+    font-size: 50%;
 }
 
 
