@@ -40,11 +40,14 @@ img {
 
 .paletteMenu {
     background-color: $background-grey;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     width: 100%;
     margin-top: -15%;
     overflow: hidden;
     position: absolute;
+    margin-left: -5px;
+    display: block;
 }
 
 .paletteMenu h2 {
@@ -52,9 +55,55 @@ img {
     font-size: 40px;
 }
 
+.header {
+    margin-left: 25px;
+    font-weight: normal;
+    text-decoration: underline;
+    
+}
+
 .material-icons {
     margin-left: 25%;
     font-size: 50%;
+}
+
+.entreeMenu {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin: 20px;
+}
+
+#text {
+    display: block;
+    margin-left: 20px;
+    line-height: 5px;
+    overflow: hidden;
+  
+}
+
+
+
+#text span {
+    float: right;
+    padding-right: 20px;
+}
+
+.paletteMenu button {
+    background-image: $background-image;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 50%;
+    position: relative;
+    bottom: 50px;
 }
 
 
